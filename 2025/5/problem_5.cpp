@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 #include <fstream>
 #include <numeric>
@@ -121,7 +122,7 @@ void CombineLikeRanges(std::vector<std::pair<uint64_t, uint64_t>>& minMaxIds)
 }
 
 uint64_t GetTotalIdRange(std::vector<std::pair<uint64_t, uint64_t>>& minMaxIds)
-{		
+{
 	uint64_t total{};
 	for (auto& range : minMaxIds)
 	{
@@ -133,3 +134,5 @@ uint64_t GetTotalIdRange(std::vector<std::pair<uint64_t, uint64_t>>& minMaxIds)
 	return total;
 }
 
+
+*/
